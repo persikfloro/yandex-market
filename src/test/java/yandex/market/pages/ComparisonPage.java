@@ -45,22 +45,20 @@ public class ComparisonPage {
     public void removeWhiskas() {
         String whiskas = secondItem();
         WebElement remove = driver.findElement(By.cssSelector("_2et7a _24eXc _3_z1Z"));
-        if(whiskas.contains("Whiskas")) {
+        if (whiskas.contains("Whiskas")) {
             remove.click();
         }
     }
-    public void deleteCompareList(){
+
+    public void deleteCompareList() {
         WebElement deleteList = driver.findElement(By.cssSelector("class=_1KpjX _1KU3s"));
         deleteList.click();
     }
 
-    public void emptyCompareList(){
+    public void emptyCompareList() {
         WebElement emptyCompare = driver.findElement(By.cssSelector("class=kpCeE"));
         emptyCompare.isDisplayed();
     }
-
-
-
 
 
 }

@@ -1,5 +1,6 @@
 package yandex.market.test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
@@ -9,7 +10,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import yandex.market.pages.ComparisonPage;
 import yandex.market.pages.MarketPage;
-import io.github.bonigarcia.wdm.WebDriverManager;
 
 import static org.junit.jupiter.api.Assertions.*;
 
